@@ -6,7 +6,7 @@ Weather app which calls the openweathermap.org api to retreive the current weath
 ## Build and Run
 Container can be built with:
 ```
-podman build -t ghcr.io/amreshh/weather:0.0.1 .
+podman build -t ghcr.io/devoteamnl/weather:0.0.1 .
 ```
 
 Run the container (exposing port 3000)
