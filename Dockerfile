@@ -1,5 +1,4 @@
 FROM docker.io/node:18-alpine3.14
-LABEL org.opencontainers.image.source=https://github.com/amreshh/weather
 WORKDIR /app
 ADD . /app/
 RUN apk add curl && npm install
